@@ -1,6 +1,6 @@
-# Towards Reliable Sparse Training in Real World: What's Unknown is What's Undeservedly-ignored
+# Embracing the Unknown Step by Step: Towards Reliable Sparse Training in Real World
 
-This is the code repository of RigL-based and SET-based models in the following paper: Towards Reliable Sparse Training in Real World: What's Unknown is What's Undeservedly-ignored.
+This is the code repository of RigL-based and SET-based models in the following paper: Embracing the Unknown Step by Step: Towards Reliable Sparse Training in Real World.
 
 Parts of this code repository is based on the following works by the machine learning community.
 
