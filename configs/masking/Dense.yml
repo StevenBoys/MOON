@@ -1,0 +1,6 @@
+# @package masking
+name: Dense
+dense: True
+
+density: 1  # The density of the overall sparse network.
+print_FLOPs: False

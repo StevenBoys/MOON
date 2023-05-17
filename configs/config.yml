@@ -1,0 +1,22 @@
+w_name: "1en4"
+w_out: 0.00001
+w_out2: 0.00001
+seed: 5
+lr_ini: 0.8
+lr_end: 0.02
+classes: 101
+density: 1.0
+
+multi_seed: []
+model: resnet18
+
+# Train args
+device: cuda # cpu or cuda
+
+# Logging, Saving, Resuming
+log_interval: 100
+ckpt_dir: ckpts
+ckpt_interval: ${optimizer.epochs} # Dont save any intermediate weights, just final
+val_interval: 1
+resume: False
+begin_epoch: 1
