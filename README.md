@@ -1,6 +1,6 @@
-# Embracing the Unknown Step by Step: Towards Reliable Sparse Training in Real World
+# Embracing Unknown Step by Step: Towards Reliable Sparse Training in Real World
 
-This is the code repository of RigL-based and SET-based models in the following paper: Embracing the Unknown Step by Step: Towards Reliable Sparse Training in Real World.
+This is the code repository of RigL-based and SET-based models in the following paper: [Embracing the Unknown Step by Step: Towards Reliable Sparse Training in Real World](https://openreview.net/forum?id=Db5c3Wxj9E).
 
 Parts of this code repository is based on the following works by the machine learning community.
 
@@ -20,9 +20,8 @@ conda activate openood
 pip install libmr==0.1.9 # if necessary
 ```
 
-Datasets are provided [here](https://entuedu-my.sharepoint.com/:f:/g/personal/jingkang001_e_ntu_edu_sg/Eso7IDKUKQ9AoY7hm9IU2gIBMWNnWGCYPwClpH0TASRLmg?e=kMrkVQ).
-Please unzip the files if necessary.
-We also provide an automatic data download script [here](https://github.com/Jingkang50/OpenOOD/blob/main/scripts/download/).
+Datasets are provided from [OpenOOD](https://github.com/Jingkang50/OpenOOD).
+Please follow the instruction and unzip the files if necessary.
 
 Our codebase accesses the datasets from `./data/` and pretrained models from `./results/checkpoints/` by default.
 ```
